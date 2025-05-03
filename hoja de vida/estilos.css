@@ -1,0 +1,79 @@
+    body {
+      margin: 0; /* El ancho de los margenes*/
+      background-color: white; 
+      color: black; 
+    }
+
+
+    .contenedor {
+      display: flex; /* Ayuda a dividir en cajas */
+  
+    }
+
+
+    .informacion-lado-izquierdo{
+      background-color: #9b1e41; /* Color de fondo */
+      color: white; 
+      width: 300px; /* Ancho */
+      padding: 20px; /* Espaciado interno */
+      font-size: 16px; /* Tamaño de fuente */
+      text-align: center; /* Centra el texto y la imagen */
+    }
+
+ 
+    .informacion-lado-izquierdo img {
+      width: 180px; /* Ancho de la imagen */
+      height: 250px; /* Alto de la imagen */
+      object-fit: cover; /* Ajusta la imagen sin deformarla */
+      border-radius: 10px; /* Bordes redondos */
+      margin-bottom: 20px; /* Separación debajo de la imagen */
+    }
+
+    .contenido-derecha {
+      flex: 1; /* Toma el espacio de la derecha */
+      padding: 30px; /* Espaciado interior */
+      background-color: #f6f6f6; 
+    }
+
+  
+    .seccion {
+      margin-bottom: 20px; /* Separación inferior */
+      background-color: #ffffff; 
+      padding: 10px; /* Relleno de las cajas*/
+      border-left: 5px solid #9b1e41; /* Línea izquierda de las cajas */
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra */
+    }
+
+  
+    .seccion h2 {
+      color: #9b1e41; /* Color para los títulos */
+      margin-bottom: 15px; /* Separación del título con el contenido */
+    }
+
+
+    .seccion-tabla h2 {
+      color: #9b1e41; 
+    }
+
+
+    table {
+      width: 100%; /* Ancho */
+      margin-top: 20px; /* Separación de la tabla respecto al título */
+    }
+
+
+    table, th, td {
+      border: 1px solid #ccc; /* Bordes  */
+    }
+
+
+    th, td {
+      padding: 15px; /* Espacio de las cajas */
+      text-align: center; /* Centra el texto */
+    }
+
+
+    th {
+      background-color: #9b1e41; 
+      color: white; 
+    }
